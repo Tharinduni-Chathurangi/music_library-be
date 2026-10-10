@@ -1,0 +1,62 @@
+# Normalize text files and use LF line endings
+
+* text=auto eol=lf
+
+# TypeScript and JavaScript
+
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+
+# JSON and configuration files
+
+*.json text eol=lf
+*.jsonc text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+
+# Prisma schema and migrations
+
+*.prisma text eol=lf
+*.sql text eol=lf
+
+# Documentation and environment files
+
+*.md text eol=lf
+*.txt text eol=lf
+*.env.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Web files
+
+*.html text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+
+# Shell scripts
+
+*.sh text eol=lf
+
+# Windows scripts
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
